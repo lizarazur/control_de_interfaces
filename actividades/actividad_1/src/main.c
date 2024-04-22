@@ -11,7 +11,7 @@ int main(void) {
     gpio_init(PICO_DEFAULT_LED_PIN);
     // GPIO25 como salida
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
-
+    sleep_ms(2000);
 	// Mensaje por USB
 	printf("\nHola mundo!\n");
 
